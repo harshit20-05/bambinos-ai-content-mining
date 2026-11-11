@@ -76,3 +76,4 @@
 > My 30-60-90 day plan pilots 25 classes in Month 1, deploys n8n cloud automation in Month 2, and scales to all 500 classes with closed-loop Meta Ads ROAS telemetry in Month 3.
 > 
 > Thank you, and I'm excited to dive into your questions!"
+

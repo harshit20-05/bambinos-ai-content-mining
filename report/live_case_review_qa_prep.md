@@ -131,3 +131,4 @@
 > 1. Shadowing Video Editors & Marketing Execs: Spend 2 days observing their exact current manual scrubbing process to understand friction points, their favorite tools, and editing bottlenecks.
 > 2. Establishing the Airtable Creative Hub: Stand up the standardized schema with 9:16 split-screen templates and preview thumbnails.
 > 3. Running the 25-Class Pilot Cohort: Run our prompt prototype across 25 diverse sessions (English, Gita, Maths, Chess, Science), audit edge cases with the Creative Lead, and calibrate our 100-point scoring weights to achieve a >75% initial editor approval rate."*
+
