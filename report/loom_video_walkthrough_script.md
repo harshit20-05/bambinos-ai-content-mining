@@ -63,3 +63,4 @@
 > - Day 61 to 90: Scale to all 500 weekly classes, introduce geographic routing, and close the loop with Meta Ads ROAS telemetry.
 > 
 > Everything is fully documented, tested, and reproducible in the repository, and compiled into the executive PDF report. Thank you, and I look forward to our live case review!"
+

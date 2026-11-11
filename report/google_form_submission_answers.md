@@ -50,3 +50,4 @@
 > 2. Story Mountain Eureka (English session 2125604619): A student experiencing an authentic cognitive breakthrough understanding narrative arc resolution (Score: 86/100, Priority 2 creative).
 > 3. Breath Mindfulness (Gita session 2125422751): A 60-second serene breathing exercise positioning Bambinos as the antidote to digital screen addiction (Score: 88/100).
 > 4. Compliance Catch (Maths session 2125736982): Teacher repeatedly scolds student ('silly simple thing you don't understand... next time you will score full zero... your father said you don't study at home') and leaks student surname. The pipeline automatically caught the negative teacher tone, child distress, and PII violations, scored it 12/100, and auto-routed it to Academic Operations for teacher coaching."
+
