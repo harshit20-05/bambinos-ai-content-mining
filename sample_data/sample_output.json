@@ -1,0 +1,25 @@
+{
+  "clip_id": "BAM-GITA-SAMPLE-01",
+  "subject": "Bhagavad Gita (Little Yogi)",
+  "session_id": "2125422751",
+  "start_timestamp": "00:46:50.000",
+  "end_timestamp": "00:48:20.000",
+  "duration_seconds": 90.0,
+  "recommended_cut_seconds": 22.0,
+  "three_second_hook": "My 6-year-old wouldn't sit still for 2 minutes... until she started learning Gita.",
+  "moment_bucket": "Real Learning Demonstration & Cultural Pride (Bucket 6)",
+  "verbatim_dialogue": "TEACHER: Who are we praying to? Take the name of that Goddess!\nSTUDENT: Saraswati!\nTEACHER: Very good, and now what are we gonna say next?\nSTUDENT: Namastubhyam Varade!\nTEACHER: Super, perfect! You remembered those two words, very good! Varade means asking for blessings.",
+  "ai_score": 94,
+  "score_breakdown": {
+    "stopping_power": 24,
+    "educational_value": 25,
+    "audio_visual_clarity": 18,
+    "emotional_authenticity": 14,
+    "sound_off_legibility": 13
+  },
+  "geography_fit": "US, UK, GCC, Canada, Australia & India Metros",
+  "visual_verification": "VERIFIED",
+  "compliance_flags": ["CLEAN", "PII_ANONYMIZED"],
+  "recommendation": "APPROVE (Priority 1 Creative)"
+}
+

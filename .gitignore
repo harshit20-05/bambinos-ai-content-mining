@@ -1,0 +1,17 @@
+# Large media and official cloned assessment repo
+repo/
+scripts/frames/*.jpg
+scripts/crops/*.jpg
+scripts/*_parsed.json
+scripts/*_cues.txt
+
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db

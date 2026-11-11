@@ -1,0 +1,41 @@
+flowchart TD
+    subgraph S1["1. MULTI-SOURCE INGESTION & SPEECH ENGINE"]
+        A["Zoom / Meet Live Class Ends<br>(50-Min Session)"] -->|Webhook / Cloud Trigger| B["Raw Video & Audio Ingest<br>(AWS S3 / Google Cloud)"]
+        B --> C["Whisper AI / AssemblyAI<br>(Millisecond-Timestamped WebVTT)"]
+        C --> D["Transcript Normalizer<br>(Diarization, Accent Normalization)"]
+    end
+
+    subgraph S2["2. AI MOMENT MINING & INTELLIGENCE"]
+        D --> E["LLM Mining Agent<br>(Claude 3.5 Sonnet / Gemini Pro)"]
+        E --> F["Creative Taxonomy Classifier<br>(6 High-Yield Buckets)"]
+        F --> G["100-Point Quantitative Scoring<br>(Stopping Power, Pedagogy, Clarity)"]
+        G --> H{"Hard Exclusions Gate<br>(Tone, PII, Safety)"}
+    end
+
+    subgraph S3["3. VISUAL INTEGRITY & AUDIO-VISUAL RESOLVER"]
+        H -- "Hard Exclusion (Tone / PII)" --> Z1["Auto-Quarantine & Alert<br>(Academic QA Incident Log)"]
+        H -- "Pass Initial Criteria" --> I["OpenCV Video Frame Sampler<br>(Keyframes F1, F2, F3)"]
+        I --> J["Visual Status Evaluator<br>(Face Detection, Camera On/Off, Slides)"]
+    end
+
+    subgraph S4["4. CREATIVE HUB & VIDEO PRODUCTION HANDOFF"]
+        J --> K["Airtable Marketing Hub<br>(Populated Ad Brief & 3 Preview Frames)"]
+        K --> L{"Creative Lead Gate<br>(1-Click Approve / Reject)"}
+        L -- "Approved" --> M["Video Editor Handoff<br>(CapCut / Premiere Pro 9:16)"]
+        M --> N["Published High-Converting Ad<br>(Reels / Shorts / Meta Ads)"]
+        N --> O["Performance Feedback Loop<br>(ROAS & 3s Thumbstop Telemetry)"]
+        O -.->|Continuous Calibration| G
+    end
+
+    classDef ing fill:#e1f5fe,stroke:#0288d1,stroke-width:2px;
+    classDef ai fill:#e8f5e9,stroke:#388e3c,stroke-width:2px;
+    classDef vis fill:#fff3e0,stroke:#f57c00,stroke-width:2px;
+    classDef prod fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    classDef reject fill:#ffebee,stroke:#c62828,stroke-width:2px;
+
+    class A,B,C,D ing;
+    class E,F,G ai;
+    class H,I,J vis;
+    class K,L,M,N,O prod;
+    class Z1 reject;
+
